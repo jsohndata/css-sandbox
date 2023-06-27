@@ -1,0 +1,8 @@
+body {
+  background-color: red;
+  background-image: url(../../images/record6.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}

@@ -1,0 +1,11 @@
+#transform .flex-container > div:nth-child(1) img {
+  transform: rotate(45deg);
+}
+
+#transform .flex-container > div:nth-child(2) img {
+  transform: scale(0.4);
+}
+
+#transform .flex-container > div:nth-child(3) img {
+  transform: skew(25deg, 30deg);
+}

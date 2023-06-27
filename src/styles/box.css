@@ -1,0 +1,14 @@
+#box > div > div {
+  background-color: red;
+  border: 5px solid blue;
+  width: 100px;
+  aspect-ratio: 1/1;
+  box-shadow: 10px 10px 10px rgb(155, 136, 15);
+}
+#box .box-padding {  
+  padding: 20px;  
+}
+
+#box .box-margin {
+  margin: 20px;
+}

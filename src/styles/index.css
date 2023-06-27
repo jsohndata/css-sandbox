@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: rgb(230, 226, 183);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+nav li a {
+  font-size: clamp(0.4rem, 2.3vw, 1.3rem);
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+
+nav {
+  background-color: aquamarine;
+  padding: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+@media (min-width: 576px) { 
+  nav ul {
+    flex-direction: row;
+  }
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 20px;
+}
+
+
+
+h1, h2, footer {
+  text-align: center;
+}

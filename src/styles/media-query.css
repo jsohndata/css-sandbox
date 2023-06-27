@@ -1,0 +1,49 @@
+#media > div > div {
+  padding: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#media > div div:first-child {
+  background-color: blue;
+}
+
+#media > div div:nth-child(2) {
+  background-color: red;
+}
+
+#media > div div:nth-child(3) {
+  background-color: green;
+}
+
+
+
+
+
+/* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #media > div div:first-child {
+      background-color: pink;
+    }
+
+    #media > div div:nth-child(2) {
+      background-color: goldenrod;
+      display: none;
+    }
+
+    #media > div div:nth-child(3) {
+      background-color: rgb(23, 225, 107);
+    }
+ }
+
+/* Large devices (desktops, 992px and up)  */
+/* @media (min-width: 992px) { ... } */
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */

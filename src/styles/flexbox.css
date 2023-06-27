@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex-container div {
+  width: 200px;
+  border: 2px solid rgb(187, 187, 187);
+  background-color: rgb(229, 231, 229);  
+  text-align: center;
+  margin: 5px;
+  border-radius: 13px;
+}
+
+.flex-container > div img {  
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 13px 13px 0px 0px;
+}
