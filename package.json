@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/jsohndata/css-sandbox/issues"
   },
-  "homepage": "https://jsohndata.github.com/css-sandbox",
+  "homepage": "https://jsohndata.github.io/css-sandbox",
   "dependencies": {
     "gh-pages": "^5.0.0"
   }
